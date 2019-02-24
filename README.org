@@ -1,0 +1,17 @@
+* Tektronnix oscilloscope data reader
+
+/TekDataReader.py/ file reads csv file of Tektronnix oscilloscope data
+and /FFTofTekData.py/ not only reads the data but also takes the
+Fourier transform.
+
+** Usage
+
+Simply type ~python TekDataReader.py~ or ~python FFTofTekData.py~ in
+command line, and then you are required to enter the name of csv file.
+
+The results are shown in /TekData.pdf/, /FFT_of_CH1.pdf/ and
+/FFT_of_CH2.pdf/.
+
+** License
+
+This software is distributed under the term of GPLv3.
